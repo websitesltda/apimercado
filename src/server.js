@@ -22,4 +22,4 @@ app.use((req, res, next) => {
 api.use(express.json());
 api.use(routes);
 const PORT = process.env.PORT || 3000;
-api.listen(4000);
+api.listen(3000);
